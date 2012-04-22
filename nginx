@@ -66,12 +66,12 @@
 #                               Consts
 #------------------------------------------------------------------------------
 PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
-DAEMON=/usr/local/sbin/nginx
+DAEMON=/usr/local/nginx/sbin/nginx
 
 PS="nginx"
 PIDNAME="nginx"                     #lets you do $PS-slave
 PIDFILE=$PIDNAME.pid                #pid file
-PIDSPATH=/var/run
+PIDSPATH=/usr/local/nginx/logs
 
 DESCRIPTION="Nginx Server..."
 
